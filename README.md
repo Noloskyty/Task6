@@ -28,7 +28,7 @@
 14.Сигнализатор переполнения памяти накопителя: Напишите приемник системного действия ACTION_DEVICE_STORAGE_LOW, автоматически инициирующий сброс временных картинок.
 <img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/c7385b1a-4bb7-4119-984e-f279fd2bab74" />
 15.Автоматический запуск службы после перезагрузки: Настройте цепочку: прием события BOOT_COMPLETED -> валидация настроек -> вызов startForegroundService().
-<img width="1917" height="1143" alt="1Zade" src="https://github.com/user-attachments/assets/c3f1c016-94e8-4524-99c6-1bfb4c8fee36" />
+<img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/10d5256e-1cb2-4423-86d6-26b6e206be23" />
 16.Перехват подключения гарнитуры: Напишите приемник события ACTION_HEADSET_PLUG, автоматически ставящий аудиоплеер на паузу при извлечении наушников.
 <img width="1886" height="1077" alt="2Zade" src="https://github.com/user-attachments/assets/4606d641-3313-4c96-9efc-7c419e73fd77" />
 17.Локальный шифратор широковещательных сообщений: Реализуйте отправку сообщений, подписанных цифровой подписью, с проверкой в ресивере через кастомное разрешение уровня signature.
@@ -52,7 +52,7 @@
 26.Передача снимка с камеры через FileProvider: Настройте генерацию безопасного content:// URI для сохранения полноразмерного фото стандартным приложением камеры.
 <img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/f7e8ceeb-10bb-4c29-a418-58584119575f" />
 27.Пакетная вставка 10 000 строк: Оптимизируйте метод bulkInsert() в кастомном провайдере для быстрой загрузки каталога товаров в базу данных.
-<img width="1917" height="1143" alt="1Zade" src="https://github.com/user-attachments/assets/bdcb02fe-f8a3-41a9-8055-aea8bcaf75c2" />
+<img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/5d6aeeef-00aa-4cba-a523-d1f25cd5e05d" />
 28.Провайдер с поддержкой MIME-типов PDF и CSV: Реализуйте метод getStreamTypes() для отдачи отчетов в нескольких форматах по выбору клиента.
 <img width="1886" height="1077" alt="2Zade" src="https://github.com/user-attachments/assets/814d2d7a-3481-4b43-97a6-3cf9c03d5317" />
 29.Мониторинг базы данных через ContentObserver: Напишите сервис, слушающий изменения в системном журнале звонков и ведущий статистику вызовов.
@@ -80,7 +80,7 @@
 40.Динамическое отключение компонентов: Реализуйте включение и выключение BroadcastReceiver во время работы через метод PackageManager.setComponentEnabledSetting().
 <img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/545a62ea-c555-4b79-af3d-d98c5a73ecad" />
 41.Защита от атак повторного воспроизведения (Broadcast Replay Attack): Добавьте проверку таймстемпа и случайной одноразовой соли (Nonce) в широковещательные интенты.
-<img width="1917" height="1143" alt="1Zade" src="https://github.com/user-attachments/assets/6cdab6ed-dfe7-4348-bd24-464c0301246d" />
+<img width="1905" height="1130" alt="14Zade" src="https://github.com/user-attachments/assets/316e815e-27f0-4281-a9fa-deca69075a23" />
 42.Изоляция провайдера от обхода путей (Path Traversal): Напишите валидатор путей в методе openFile(), блокирующий попытки извлечения файлов через последовательности ../.
 <img width="1886" height="1077" alt="2Zade" src="https://github.com/user-attachments/assets/dee9f0ee-e145-424a-836d-d778452a7a0b" />
 43.Ограничение прав на чтение и запись: Настройте в манифесте для провайдера раздельные атрибуты android:readPermission и android:writePermission.
